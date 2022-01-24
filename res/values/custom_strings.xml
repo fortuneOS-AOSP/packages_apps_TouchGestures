@@ -27,6 +27,10 @@
     <string name="touchscreen_gesture_letter_z_title">Draw the letter \"Z\"</string>
     <string name="touchscreen_gesture_single_tap_title">Single tap</string>
     <string name="touchscreen_gesture_double_tap_title">Double tap</string>
+    <string name="touchscreen_gesture_up_swipe">Up Swipe</string>
+    <string name="touchscreen_gesture_left_swipe">Left Swipe</string>
+    <string name="touchscreen_gesture_right_swipe">Right Swipe</string>
+    <string name="touchscreen_gesture_down_swipe">Down Swipe</string>
 
     <!-- Gesture: Stylus gestures -->
     <string name="touchscreen_gesture_swipe_up_stylus_title">Swipe up with the stylus</string>
