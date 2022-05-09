@@ -122,6 +122,14 @@ public class ActionUtils {
         return intent;
     }
 
+    private static Intent getPhonePeIntent(Context context) {
+        Intent intent = new Intent();
+        ComponentName cn=new ComponentName("com.phonepe.app",
+                "com.phonepe.app.ui.activity.Navigator_MainActivity");
+        intent.setComponent(cn);
+        return intent;
+    }
+
     public static Intent getIntentByAction(Context context, int action) {
         Intent intent = null;
         if (action == TouchscreenGestureConstants.ACTION_BROWSER) {
@@ -152,6 +160,8 @@ public class ActionUtils {
             intent = getPaytmScanPayIntent(context);
         } else if (action == TouchscreenGestureConstants.ACTION_PAYTM_QR_CODE) {
             intent = getPaytmQRCodeIntent(context);
+        } else if (action == TouchscreenGestureConstants.ACTION_PHONEPE) {
+            intent = getPhonePeIntent(context);
         }
         return intent;
     }

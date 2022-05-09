@@ -64,5 +64,6 @@
     <string name="touchscreen_gesture_action_paytm">Paytm</string>
     <string name="touchscreen_gesture_action_paytm_scan_pay">Paytm Scan &amp; Pay</string>
     <string name="touchscreen_gesture_action_paytm_qr_code">Paytm QR Code</string>
+    <string name="touchscreen_gesture_action_phonepe">PhonePe</string>
 
 </resources>
